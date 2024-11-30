@@ -29,10 +29,10 @@ const Hero = () => {
 
         <TextGenerateEffect
           className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          words="Transforming Concepts Into Seamless User Experiences"
+          words="Making your body great again"
           />
         <p className="text-center md:tracking-wider mb-4 text-sm md:text-sm lg:text-sm">
-          Hi, I&apos;m Adrian, a Next.js Developer
+          One url to rule them all
         </p>
 
         <a href='about'>
