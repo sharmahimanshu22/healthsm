@@ -1,8 +1,6 @@
 import { FaLocationArrow } from 'react-icons/fa6'
-import MagicButton from './ui/SubmitButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
-import { LoginButton } from './auth/LoginButton'
 import SubmitButton from './ui/SubmitButton'
 
 const Hero = () => {
