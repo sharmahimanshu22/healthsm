@@ -22,6 +22,7 @@ const Hero = () => {
         
       </div>
       
+      <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
       <div className = "max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
       <a href='/auth/login'>
           <SubmitButton
@@ -29,6 +30,15 @@ const Hero = () => {
               icon={<FaLocationArrow />} 
               position={'right'}          />
       </a>
+      </div>
+      <div className = "max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+      <a href='/auth/signup'>
+          <SubmitButton
+              title="Sign Up" 
+              icon={<FaLocationArrow />} 
+              position={'right'}          />
+      </a>
+      </div>
       </div>
 
       {/* <LoginButton>
